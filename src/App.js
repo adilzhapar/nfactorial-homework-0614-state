@@ -19,7 +19,7 @@ const buttons = [
 ];
 
 
-const todos = JSON.parse(localStorage.getItem('items'));
+const todos = JSON.parse(localStorage.getItem('items')) || [];
 // helpful links:
 // useState crash => https://blog.logrocket.com/a-guide-to-usestate-in-react-ecb9952e406c/
 function App() {
